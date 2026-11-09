@@ -27,7 +27,7 @@ function SiteHeader() {
         <a href="#celebration" onClick={closeMenu}>आमंत्रण</a>
         <a href="#details" onClick={closeMenu}>कार्यक्रम</a>
         <a href="#gallery" onClick={closeMenu}>आठवणी</a>
-        <a className="nav-rsvp" href="#rsvp" onClick={closeMenu}>उपस्थिती कळवा <ArrowUpRight size={14} /></a>
+        {/* <a className="nav-rsvp" href="#rsvp" onClick={closeMenu}>उपस्थिती कळवा <ArrowUpRight size={14} /></a> */}
       </nav>
     </header>
   );

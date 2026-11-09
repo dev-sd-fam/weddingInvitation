@@ -3,13 +3,13 @@ import { CalendarDays, Heart, Sparkles, Users } from 'lucide-react';
 
 const events = [
   {
-    date: '३ जानेवारी · सायं. ६:००',
+    date: '३ जानेवारी · दु. 2:००',
     name: 'हळदीचा सोहळा',
     note: 'हळदीच्या रंगात न्हाऊया, हास्याच्या फुलांनी दिवस सजवूया. पिवळ्या रंगात सजून या!',
     icon: Sparkles,
   },
   {
-    date: '४ जानेवारी · सायं. ६:००',
+    date: '४ जानेवारी · सायं. ६:३५',
     name: 'शुभविवाह',
     note: 'मंगलाष्टकांच्या साक्षीने आमचे विवाहबंधन जुळेल. आपल्या शुभाशीर्वादांनी हा क्षण मंगलमय करा.',
     icon: Heart,
@@ -38,7 +38,7 @@ function EventsSection() {
             <article className="event-row" data-reveal key={event.name}>
               <span className="event-index">{(index + 1).toLocaleString('mr-IN', { useGrouping: false, minimumIntegerDigits: 2 })}</span>
               <div className="event-date"><CalendarDays size={15} /><span>{event.date}</span></div>
-              <div className="event-name"><h3>{event.name}</h3><span lang="mr">ठाणे, महाराष्ट्र</span></div>
+              <div className="event-name"><h3>{event.name}</h3><span lang="mr">शिलाटणे, महाराष्ट्र</span></div>
               <p className="event-description">{event.note}</p>
               <span className="event-icon"><Icon size={20} strokeWidth={1.5} /></span>
             </article>

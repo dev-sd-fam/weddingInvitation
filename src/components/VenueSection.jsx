@@ -16,15 +16,15 @@ function VenueSection() {
         <div className="venue-copy">
           <span className="eyebrow eyebrow-red">आमचा पत्ता</span>
           <h3 id="venue-title">ठाण्यात भेटूया!<br />आपली आतुरतेने वाट पाहत आहोत.</h3>
-          <div className="venue-address"><MapPin size={17} /><p><strong>ठाणे, महाराष्ट्र</strong><br />विवाहस्थळाचा अचूक पत्ता लवकरच कळवू.</p></div>
-          <p className="venue-note"><Clock3 size={15} /> विवाहसोहळा ४ जानेवारी रोजी सायंकाळी ६ वाजता</p>
-          <a className="text-link" href="https://maps.google.com/?q=Thane+Maharashtra" target="_blank" rel="noreferrer">ठाण्याचा नकाशा पहा <ArrowUpRight size={15} /></a>
+          <div className="venue-address"><MapPin size={17} /><p><strong>Radha Krishna Mangal Karyalay</strong><br />शिलाटणे, महाराष्ट्र ४१०४०५</p></div>
+          <p className="venue-note"><Clock3 size={15} /> विवाहसोहळा ४ जानेवारी रोजी सायंकाळी ६:३५ वाजता</p>
+          <a className="text-link" href="https://share.google/WsDR4jYok8Z4rhuZz" target="_blank" rel="noreferrer">विवाहस्थळाचा नकाशा पहा <ArrowUpRight size={15} /></a>
         </div>
       </div>
       <div className="venue-map" data-reveal>
         <iframe
-          title="ठाणे, महाराष्ट्र येथील विवाहस्थळाचा नकाशा"
-          src="https://maps.google.com/maps?q=Thane%2C%20Maharashtra&z=12&output=embed"
+          title="Radha Krishna Mangal Karyalay, Shilatne येथील विवाहस्थळाचा नकाशा"
+          src="https://maps.google.com/maps?q=Radha%20Krishna%20Mangal%20Karyalay%2C%20Shilatne%2C%20Maharashtra%20410405&z=15&output=embed"
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
           allowFullScreen

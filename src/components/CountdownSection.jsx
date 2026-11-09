@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const weddingDate = new Date('2027-01-04T18:00:00+05:30');
+const weddingDate = new Date('2027-01-04T18:35:00+05:30');
 const countdownUnits = [
   ['days', 'दिवस'],
   ['hours', 'तास'],

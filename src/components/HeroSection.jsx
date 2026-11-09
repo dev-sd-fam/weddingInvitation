@@ -21,7 +21,7 @@ function HeroSection({ revealMode }) {
         <h1 id="hero-title">सुबोध <span>❤️</span> प्रणाली</h1>
         <p className="hero-marathi" lang="mr">॥ शुभविवाह ॥</p>
         <div className="hero-date">
-          <span>सोमवार</span><i /> <span>४ जानेवारी २०२७</span><i /> <span>ठाणे, महाराष्ट्र</span>
+          <span>सोमवार</span><i /> <span>४ जानेवारी २०२७</span><i /> <span>सायंकाळी ६:३५</span><i /> <span>शिलाटणे, महाराष्ट्र</span>
         </div>
         <a className="hero-link" href="#celebration">आमच्या आनंदात सहभागी व्हा <ArrowDown size={16} /></a>
       </div>

@@ -50,7 +50,7 @@ function CurtainReveal({ onReveal }) {
         <span className="curtain-ornament" aria-hidden="true"><Sparkles size={20} strokeWidth={1.2} /></span>
         <p className="curtain-kicker">॥ शुभमंगल ॥</p>
         <p className="curtain-names">सुबोध <span>&</span> प्रणाली</p>
-        <span className="curtain-date">४ जानेवारी २०२७ <i /> ठाणे</span>
+        <span className="curtain-date">४ जानेवारी २०२७ <i /> सायं. ६:३५ <i /> शिलाटणे</span>
         <button className="curtain-open-button" type="button" onClick={openInvitation} disabled={phase === 'opening'}>
           {phase === 'opening' ? 'आपले स्वागत आहे' : 'आमंत्रण उघडा'}
           {phase === 'opening' ? <Sparkles size={15} /> : <ArrowRight size={15} />}
